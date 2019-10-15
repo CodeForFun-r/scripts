@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 present=$(lsusb | grep 'First word of your hard disk name')
 if [ -z "$present" ];
 then
